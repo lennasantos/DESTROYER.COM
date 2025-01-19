@@ -1,12 +1,5 @@
 export const DEPOIMENTOS = [
   {
-    id: 9,
-    image: "src/assets/images/Berne.png",
-    texto:
-      "Aplicar sobre o berne bicheira. Eles serão expelido para fora do animal.",
-    autor: "BERNE BICHEIRA",
-  },
-  {
     id: 4,
     image: "src/assets/images/Formiga doceira.png",
     texto:
@@ -75,6 +68,13 @@ export const DEPOIMENTOS = [
     texto:
       "Pulverizar todo o corpo do animal para que os piolhos e carrapatos sejam contaminados.",
     autor: "PIOLHO CARRAPATO",
+  },
+  {
+    id: 9,
+    image: "src/assets/images/Berne.png",
+    texto:
+      "Aplicar sobre o berne bicheira. Eles serão expelido imediatamente para fora do animal.",
+    autor: "BERNE BICHEIRA",
   },
   {
     id: 10,

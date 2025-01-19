@@ -68,7 +68,7 @@ body {
 }
 
 #section-container-passos {
-  width: 100%;
+  width: 120%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -111,7 +111,7 @@ body {
 }
 
 .imagem-passos {
-  width: 250px; /* Ajuste para 200px */
+  width: 280px; /* Ajuste para 200px */
   height: 200px; /* Ajuste para 200px */
 }
 
