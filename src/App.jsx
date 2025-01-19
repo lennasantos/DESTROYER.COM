@@ -4,7 +4,7 @@ import Produtos from "./components/Produtos/produtos";
 import NossasSolucoes from "./components/NossasSolucoes/solucoes";
 import Duvidas from "./components/Duvidas/duvidas";
 import Canais from "./components/Canais/canais";
-import Compras from "./components/Compras/Compras";
+import Compras from "./components/Compras/compras";
 import Rodapé from "./components/Rodapé/rodapé";
 <source />;
 
