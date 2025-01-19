@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+/* Estilo principal do container */
+.conheca-Destroyer-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 100px 20px; /* Espaçamento uniforme */
+  background-color: #000; /* Fundo preto */
+  text-align: center; /* Centraliza o texto */
+  font-family: "Montserrat", sans-serif; /* Define a fonte Montserrat */
+  color: #fff; /* Cor do texto branco */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+/* Texto principal */
+.conheca-Destroyer-text h2 {
+  font-size: 40px; /* Tamanho do título */
+  font-weight: 700; /* Fonte mais espessa */
+  margin-bottom: 30px; /* Espaçamento inferior */
+}
+
+/* Destaque no título */
+.conheca-Destroyer-text h2 .color-red {
+  color: #ec1f24; /* Cor vermelha */
+  display: inline; /* Mantém o destaque na linha */
+}
+
+/* Parágrafos */
+.conheca-Destroyer-text p {
+  font-size: 25px; /* Tamanho do texto */
+  line-height: 1.6; /* Espaçamento entre linhas */
+  margin-bottom: 30px; /* Espaçamento entre parágrafos */
+}
+
+/* Estilo responsivo */
+@media only screen and (max-width: 768px) {
+  .conheca-Destroyer-container {
+    padding: 50px 10px; /* Reduz o padding em telas menores */
+  }
+
+  .conheca-Destroyer-text h2 {
+    font-size: 28px; /* Reduz o tamanho do título */
+  }
+
+  .conheca-Destroyer-text p {
+    font-size: 16px; /* Reduz o tamanho do texto */
+  }
+}

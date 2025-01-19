@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+:root {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1,
+h2 {
+  font-size: 2.5em;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.2em;
+  line-height: 1.3;
+}
+
+p {
+  color: #d3d3d3;
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.color-red {
+  color: #ec1f24;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 8px;
+  margin-top: 16px;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+  background-color: #ec1f24;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Configuração de layout responsivo */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.column {
+  flex: 1 1 45%; /* Ocupa 45% do espaço em telas maiores */
+  max-width: 45%;
+  min-width: 300px; /* Garantia de responsividade para telas menores */
+  text-align: center;
+}
+
+.column img {
+  margin: 0 auto 15px; /* Centraliza e adiciona espaçamento */
+}
+
+.column p {
+  font-size: 1em;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+/* Configurações para a barra de rolagem */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: #ec1f24;
+  border: 1px solid #000000;
+}
+
+*::selection {
+  color: #ffffff;
+  background: #ec1f24;
+  -webkit-text-fill-color: #fef5f5;
+}
+
+/* Responsividade */
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  .column {
+    flex: 1 1 100%; /* Ocupa 100% em telas pequenas */
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  .btn {
+    font-size: 0.9em;
+    padding: 10px 16px;
+  }
+}

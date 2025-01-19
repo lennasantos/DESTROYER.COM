@@ -1,0 +1,37 @@
+.rodape-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centraliza o texto */
+  background-image: url(/src/assets/images/rodapé.png); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Faz com que a imagem preencha o fundo */
+  background-position: center; /* Centraliza a imagem de fundo */
+  height: 70px; /* Altura fixa */
+  font-family: "Montserrat", sans-serif; /* Fonte Montserrat */
+  bottom: 0;
+  width: 100%; /* Largura total */
+  border-top: 2px solid #800000; /* Linha de destaque no topo */
+  color: #ffffff; /* Texto branco */
+  text-align: center; /* Alinha o texto no centro */
+}
+
+.rodape-text {
+  font-size: 18px; /* Tamanho do texto */
+  margin: 0; /* Remove margens padrão */
+}
+
+.rodape-image {
+  display: none; /* Caso não queira adicionar imagens no fundo diretamente */
+}
+
+/* Responsividade */
+@media only screen and (max-width: 768px) {
+  .rodape-text {
+    font-size: 16px; /* Ajuste o tamanho do texto para dispositivos menores */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .rodape-text {
+    font-size: 14px; /* Ajuste o tamanho do texto para telas pequenas */
+  }
+}

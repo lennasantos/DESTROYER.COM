@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+/* Contêiner Principal */
+.heroContainer {
+  background-image: url("src/assets/images/fundo.png");
+  background-size: cover;
+  background-position: center;
+  background-color: #000; /* Fundo preto para áreas extras */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+.navButton {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; /* Semi bold */
+  font-size: 1.25em; /* Aumentar o tamanho da fonte */
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 40px 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  background-color: transparent; /* Fundo transparente */
+}
+
+.navButton:hover {
+  color: #ec1f24; /* Cor do texto no hover */
+  text-shadow: 0 0 10px #ec1f24; /* Brilho no texto */
+}
+
+/* Logo Centralizado */
+.logo {
+  margin-top: 150px; /* Ajusta o espaçamento superior */
+  width: 500px;
+  height: auto;
+}
+
+/* Ícone do WhatsApp */
+.whatsappIcon {
+  position: fixed;
+  bottom: 90px;
+  right: 35px;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid #ec1f24; /* Contorno vermelho */
+  border-radius: 50%;
+  padding: 5px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.whatsappIcon:hover {
+  box-shadow: 0 0 15px #ec1f24; /* Brilho ao passar o mouse */
+}
+
+/* Seções */
+.section {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; /* Semi bold */
+  font-size: 2em; /* Aumentar o tamanho da fonte */
+}
+
+#produtos,
+#duvidas,
+#solucoes,
+#canais,
+#envios {
+  scroll-margin-top: 100px; /* Ajustar a posição do scroll */
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+  .navButton {
+    font-size: 1em; /* Tamanho da fonte responsivo */
+    padding: 15px 10px;
+  }
+
+  .section {
+    font-size: 1.5em; /* Tamanho da fonte responsivo */
+  }
+}

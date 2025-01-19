@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+.compras-container {
+  background-image: url("/src/assets/images/fundo2.png");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.compras-main-title {
+  padding: 40px;
+  color: #ec1f24;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.compras-columns {
+  display: flex;
+  justify-content: center; /* Alinhar ao centro */
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+  gap: 20px; /* Aproximar colunas */
+}
+
+.compras-column {
+  width: 35%;
+  margin-bottom: 30px;
+}
+
+.compras-title {
+  font-size: 24px;
+  margin-bottom: 30px; /* Reduzido para aproximar mais */
+}
+
+.compras-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* Adicionado espaço entre os ícones */
+}
+
+.compras-icons img {
+  padding: 10px;
+  width: 85px; /* Ajuste para o tamanho desejado */
+  height: 70px; /* Manter proporção */
+}
+
+.compras-shipping-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Espaço entre as imagens */
+}
+
+.compras-shipping-icons img {
+  width: 130px; /* Ajuste para o tamanho desejado */
+  height: 130px; /* Manter proporção */
+  border-radius: 5px;
+}
+
+.compras-footer {
+  margin-top: 70px;
+}
+
+.compras-whatsapp-link {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
+
+.compras-whatsapp-icon {
+  width: 60px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.compras-help-text {
+  font-size: 30px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .compras-columns {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .compras-column {
+    width: 100%;
+  }
+
+  .compras-title {
+    font-size: 24px;
+    margin-bottom: 40px; /* Reduzido para proximidade */
+  }
+
+  .compras-icons img,
+  .compras-shipping-icons img {
+    width: 80px; /* Ajuste para menor largura em mobile */
+    height: 56px; /* Manter proporção */
+  }
+
+  .compras-help-text {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .compras-main-title {
+    font-size: 28px;
+  }
+
+  .compras-title {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .compras-icons img,
+  .compras-shipping-icons img {
+    width: 60px; /* Ajuste para menor largura em mobile */
+    height: 42px; /* Manter proporção */
+  }
+
+  .compras-help-text {
+    font-size: 20px;
+  }
+
+  .compras-whatsapp-link {
+    padding: 20px;
+  }
+}

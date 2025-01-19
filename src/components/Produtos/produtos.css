@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Criando variáveis das paletas de cores */
+:root {
+  --cor-principal-red: #ec1f24; /* Cor principal */
+  --cor-secundaria-black: #000000;
+  --cor-tercearia-white: #ffffff;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+/* Aplique a cor vermelha no texto específico */
+#section-produtos-titulos p {
+  color: #ec1f24; /* Cor vermelha para o texto "AQUI TEMOS PRODUTOS SEM CHEIRO" */
+}
+
+#section-produtos {
+  width: 100%;
+  height: auto;
+  background-color: var(--cor-secundaria-black);
+  border-width: 1px 0px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #000, var(--cor-principal-red), #000)
+    1;
+}
+
+#section-produtos .container-produtos {
+  width: 100%;
+  max-width: 1280px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#section-produtos #section-produtos-titulos {
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  background-color: #000;
+  color: var(--cor-principal-red); /* Cor do texto */
+  padding: 5px;
+  margin-bottom: 100px;
+}
+
+#section-produtos #section-produtos-titulos h1 {
+  margin-bottom: 20px; /* Adiciona espaço entre o <h1> e o carrossel */
+}
+
+#section-produtos #section-produtos-titulos p {
+  font-size: 1.87em;
+  font-weight: 700;
+}
+
+#section-produtos #section-produtos-titulos p span {
+  color: var(--cor-principal-red);
+}
+
+#section-container-passos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden; /* Adicionado para carrossel */
+}
+
+.cards-wrapper {
+  display: flex;
+  width: 100%; /* Ajustado para 100% */
+  justify-content: center; /* Centralizando os cards */
+  flex-wrap: nowrap; /* Garantir que os cards não quebrem linha */
+  animation: scroll 7s linear infinite; /* Animação para rotação contínua */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      calc(-300px * 5)
+    ); /* Ajuste conforme a quantidade de cards */
+  }
+}
+
+.cards-produtos-passos {
+  width: 300px; /* Tamanho fixo para todos os cards */
+  height: 300px; /* Tamanho fixo para todos os cards */
+  background-color: #141414;
+  border: 3px solid rgba(236, 31, 36, 0.3);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 0 10px; /* Espaçamento entre os cards */
+  gap: 1px;
+}
+
+.imagem-passos {
+  width: 250px; /* Ajuste para 200px */
+  height: 200px; /* Ajuste para 200px */
+}
+
+/* Responsividade */
+@media (min-width: 768px) {
+  #section-container-passos {
+    flex-direction: row;
+  }
+
+  .cards-produtos-passos {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .imagem-passos {
+    width: 100%; /* Manter a largura total do card */
+    height: auto; /* Manter a proporção da imagem */
+  }
+}
