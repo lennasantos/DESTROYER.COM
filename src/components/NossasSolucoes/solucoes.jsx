@@ -7,27 +7,27 @@ import "swiper/css/pagination";
 import { DEPOIMENTOS } from "./solucoes.data";
 
 function NossasSolucoes() {
-  const [slidesPerView, setSlidesPerView] = useState(4); // Estado inicial para telas maiores
+  const [slidesPerView, setSlidesPerView] = useState(4);
 
   useEffect(() => {
     function handleResize() {
       if (window.innerWidth <= 550) {
-        setSlidesPerView(1); // Até 550px
+        setSlidesPerView(1);
       } else if (window.innerWidth > 550 && window.innerWidth <= 880) {
-        setSlidesPerView(2); // Entre 551px e 880px
+        setSlidesPerView(2);
       } else if (window.innerWidth > 880 && window.innerWidth <= 1024) {
-        setSlidesPerView(3); // Entre 881px e 1024px
+        setSlidesPerView(3);
       } else {
-        setSlidesPerView(4); // Acima de 1025px
+        setSlidesPerView(4);
       }
     }
 
-    handleResize(); // Verifica o tamanho da tela quando o componente carrega
+    handleResize();
 
-    window.addEventListener("resize", handleResize); // Adiciona o evento de resize
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener("resize", handleResize); // Remove o evento ao desmontar o componente
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 

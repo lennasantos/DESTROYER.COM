@@ -1,4 +1,3 @@
-/* Importação da fonte Montserrat */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 body {
@@ -9,7 +8,7 @@ body {
 }
 
 .canais-container {
-  background-image: url(src/assets/images/fundo2.png); /* Substituir pela imagem desejada */
+  background-image: url(src/assets/images/fundo2.png);
   background-size: cover;
   background-position: center;
   padding: 100px 180px;
@@ -26,10 +25,7 @@ body {
 
 .canais-conteudo {
   display: grid;
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(300px, 1fr)
-  ); /* Layout responsivo para duas colunas */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
   justify-items: center;
 }
@@ -86,7 +82,6 @@ body {
   color: #fff;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
   .canais-container {
     padding: 20px;
@@ -106,7 +101,7 @@ body {
   }
 
   .canais-conteudo {
-    grid-template-columns: 1fr; /* Exibe as colunas em uma única linha no mobile */
+    grid-template-columns: 1fr;
   }
 }
 

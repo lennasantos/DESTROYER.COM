@@ -5,7 +5,6 @@ function Canais() {
     <section className="canais-container" id="canais-container">
       <h1 className="canais-titulo">NOSSOS CANAIS DE ATENDIMENTO</h1>
       <div className="canais-conteudo">
-        {/* Coluna 1 */}
         <div className="canais-coluna1">
           <h1>PERMANEÇA CONECTADOS</h1>
           <div className="canais-icones">
@@ -31,8 +30,6 @@ function Canais() {
             </p>
           </div>
         </div>
-
-        {/* Coluna 2 */}
         <div className="canais-coluna2">
           <h1>FALE CONOSCO</h1>
           <div className="canais-contato">

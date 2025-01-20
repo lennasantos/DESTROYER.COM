@@ -17,8 +17,8 @@ function Duvidas() {
     });
   };
 
-  const firstColumn = SOURCE.slice(0, Math.ceil(SOURCE.length / 2)); // Primeira metade
-  const secondColumn = SOURCE.slice(Math.ceil(SOURCE.length / 2)); // Segunda metade
+  const firstColumn = SOURCE.slice(0, Math.ceil(SOURCE.length / 2));
+  const secondColumn = SOURCE.slice(Math.ceil(SOURCE.length / 2));
 
   return (
     <section className="duvidas-container" id="section-duvidas">

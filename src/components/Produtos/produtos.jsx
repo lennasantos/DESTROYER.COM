@@ -18,11 +18,10 @@ function Produtos() {
       showSlide(currentIndex);
     }
 
-    // Slide automático a cada 1 segundos
     const interval = setInterval(nextSlide, 5000);
 
     return () => {
-      clearInterval(interval); // Limpa o intervalo ao desmontar o componente
+      clearInterval(interval);
     };
   }, []);
 

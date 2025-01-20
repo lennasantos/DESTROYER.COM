@@ -3,12 +3,9 @@ import "./compras.css";
 function Compras() {
   return (
     <div className="compras-container" id="compras-container">
-      {/* Título principal */}
       <h1 className="compras-main-title">COMPRAS</h1>
 
-      {/* Seção com duas colunas */}
       <div className="compras-columns">
-        {/* Coluna 1 - Meios de Pagamentos */}
         <div className="compras-column">
           <h2 className="compras-title">MEIOS DE PAGAMENTOS</h2>
           <div className="compras-icons">
@@ -27,7 +24,6 @@ function Compras() {
           </div>
         </div>
 
-        {/* Coluna 2 - Meios de Envio */}
         <div className="compras-column">
           <h2 className="compras-title">MEIOS DE ENVIOS</h2>
           <div className="compras-shipping-icons">
@@ -51,7 +47,6 @@ function Compras() {
         </div>
       </div>
 
-      {/* Seção inferior com WhatsApp */}
       <div className="compras-footer">
         <a
           href="https://wa.me/message/7AANNAVATZZBP1"

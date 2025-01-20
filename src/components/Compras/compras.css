@@ -18,10 +18,10 @@
 
 .compras-columns {
   display: flex;
-  justify-content: center; /* Alinhar ao centro */
+  justify-content: center;
   margin-bottom: 50px;
   flex-wrap: wrap;
-  gap: 20px; /* Aproximar colunas */
+  gap: 20px;
 }
 
 .compras-column {
@@ -31,31 +31,31 @@
 
 .compras-title {
   font-size: 24px;
-  margin-bottom: 30px; /* Reduzido para aproximar mais */
+  margin-bottom: 30px;
 }
 
 .compras-icons {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px; /* Adicionado espaço entre os ícones */
+  gap: 10px;
 }
 
 .compras-icons img {
   padding: 10px;
-  width: 85px; /* Ajuste para o tamanho desejado */
-  height: 70px; /* Manter proporção */
+  width: 85px;
+  height: 70px;
 }
 
 .compras-shipping-icons {
   display: flex;
   justify-content: center;
-  gap: 10px; /* Espaço entre as imagens */
+  gap: 10px;
 }
 
 .compras-shipping-icons img {
-  width: 130px; /* Ajuste para o tamanho desejado */
-  height: 130px; /* Manter proporção */
+  width: 130px;
+  height: 130px;
   border-radius: 5px;
 }
 
@@ -82,7 +82,6 @@
   font-size: 30px;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
   .compras-columns {
     flex-direction: column;
@@ -95,13 +94,13 @@
 
   .compras-title {
     font-size: 24px;
-    margin-bottom: 40px; /* Reduzido para proximidade */
+    margin-bottom: 40px;
   }
 
   .compras-icons img,
   .compras-shipping-icons img {
-    width: 80px; /* Ajuste para menor largura em mobile */
-    height: 56px; /* Manter proporção */
+    width: 80px;
+    height: 56px;
   }
 
   .compras-help-text {
@@ -121,8 +120,8 @@
 
   .compras-icons img,
   .compras-shipping-icons img {
-    width: 60px; /* Ajuste para menor largura em mobile */
-    height: 42px; /* Manter proporção */
+    width: 60px;
+    height: 42px;
   }
 
   .compras-help-text {

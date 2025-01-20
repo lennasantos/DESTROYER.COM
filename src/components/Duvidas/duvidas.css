@@ -16,14 +16,14 @@
 
 .duvidas-titulo {
   margin-bottom: 100px;
-  text-align: center; /* Centraliza o texto */
-  color: #ffffff; /* Cor do texto */
+  text-align: center;
+  color: #ffffff;
 }
 
 .duvidas-titulo h1 {
-  font-size: 2.5rem; /* Ajuste do tamanho do texto */
+  font-size: 2.5rem;
   font-weight: 700;
-  text-align: center; /* Centraliza o texto no elemento */
+  text-align: center;
 }
 
 .duvidas-accordion {
@@ -61,7 +61,6 @@ details > summary {
   color: #e53939;
 }
 
-/* Rotação do ícone quando o accordion está aberto */
 details[open] .duvidas-icon {
   transform: rotate(180deg);
 }

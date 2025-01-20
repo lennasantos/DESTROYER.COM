@@ -40,7 +40,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center; /* Centraliza os itens dentro do card */
+  align-items: center;
   min-height: 240px;
   background-color: rgba(20, 20, 20, 0.18);
   border: 3px solid rgba(229, 57, 57, 0.3);
@@ -54,15 +54,15 @@ body {
 .solucoes p {
   flex: 1;
   margin-top: 8px;
-  text-align: start; /* Centraliza o texto */
+  text-align: start;
 }
 
 .slide-img {
-  max-width: 45%; /* Garante que a imagem se ajuste ao tamanho do card */
+  max-width: 45%;
   height: auto;
   border-radius: 20px;
   margin-bottom: 35px;
-  object-fit: contain; /* Mantém as proporções da imagem */
+  object-fit: contain;
 }
 
 cite {
@@ -70,14 +70,12 @@ cite {
   color: #ec1f24;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 10px; /* Ajuste para separar o autor do parágrafo */
-  width: 200px; /* Largura fixa */
-  height: auto; /* Altura automática para ajustar ao texto */
-  white-space: normal; /* Permite quebra de linha */
-  word-wrap: break-word; /* Quebra a linha para ajustar ao contêiner */
+  margin-bottom: 10px;
+  width: 200px;
+  height: auto;
+  white-space: normal;
+  word-wrap: break-word;
 }
-
-/*swiper*/
 
 .swiper-slide {
   display: flex;
@@ -122,8 +120,6 @@ cite {
 .swiper-button-next {
   top: 56px !important;
 }
-
-/*Media Querie*/
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .solucoes-container h2 {

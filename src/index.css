@@ -74,7 +74,6 @@ p {
   cursor: pointer;
 }
 
-/* Configuração de layout responsivo */
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -84,14 +83,14 @@ p {
 }
 
 .column {
-  flex: 1 1 45%; /* Ocupa 45% do espaço em telas maiores */
+  flex: 1 1 45%;
   max-width: 45%;
-  min-width: 300px; /* Garantia de responsividade para telas menores */
+  min-width: 300px;
   text-align: center;
 }
 
 .column img {
-  margin: 0 auto 15px; /* Centraliza e adiciona espaçamento */
+  margin: 0 auto 15px;
 }
 
 .column p {
@@ -105,7 +104,6 @@ p {
   justify-content: space-around;
 }
 
-/* Configurações para a barra de rolagem */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -141,7 +139,7 @@ p {
   }
 
   .column {
-    flex: 1 1 100%; /* Ocupa 100% em telas pequenas */
+    flex: 1 1 100%;
     max-width: 100%;
   }
 }
