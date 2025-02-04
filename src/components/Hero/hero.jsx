@@ -12,7 +12,7 @@ function Hero() {
       </nav>
 
       <img
-        src="src/assets/images/logo destroyer.png"
+        src="/assets/images/logo destroyer.png"
         alt="Logo Destroyer"
         className="logo"
       />
@@ -24,7 +24,7 @@ function Hero() {
       >
         <div className="whatsappIcon">
           <img
-            src="src/assets/images/Whatsapp.png"
+            src="/assets/images/Whatsapp.png"
             alt="WhatsApp Icon"
             className="whatsappIcon"
           />

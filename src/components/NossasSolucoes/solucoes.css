@@ -13,7 +13,7 @@ body {
       rgba(0, 0, 0, 0.1) 70%,
       rgba(0, 0, 0, 0.9) 100%
     ),
-    url(/src/assets/images/fundo2.png);
+    url(/assets/images/fundo2.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

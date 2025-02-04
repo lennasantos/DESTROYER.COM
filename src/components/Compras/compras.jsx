@@ -9,38 +9,27 @@ function Compras() {
         <div className="compras-column">
           <h2 className="compras-title">MEIOS DE PAGAMENTOS</h2>
           <div className="compras-icons">
-            <img src="/src/assets/images/visa logo.png" alt="Visa" />
-            <img src="/src/assets/images/master logo.png" alt="MasterCard" />
-            <img src="/src/assets/images/elo logo.png" alt="Elo" />
-            <img src="/src/assets/images/hipercard logo.png" alt="Hipercard" />
+            <img src="/assets/images/visa logo.png" alt="Visa" />
+            <img src="/assets/images/master logo.png" alt="MasterCard" />
+            <img src="/assets/images/elo logo.png" alt="Elo" />
+            <img src="/assets/images/hipercard logo.png" alt="Hipercard" />
             <img
-              src="/src/assets/images/american express logo.png"
+              src="/assets/images/american express logo.png"
               alt="American Express"
             />
           </div>
           <div className="compras-icons separated">
-            <img src="/src/assets/images/pix logo.png" alt="Pix" />
-            <img src="/src/assets/images/boleto logo.png" alt="Boleto" />
+            <img src="/assets/images/pix logo.png" alt="Pix" />
+            <img src="/assets/images/boleto logo.png" alt="Boleto" />
           </div>
         </div>
 
         <div className="compras-column">
           <h2 className="compras-title">MEIOS DE ENVIOS</h2>
           <div className="compras-shipping-icons">
-            <a
-              href="https://www.mercadolivre.com.br"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className="mercado-livre"
-                src="/src/assets/images/mercado livre logo.png"
-                alt="Mercado Livre"
-              />
-            </a>
             <img
               className="correios"
-              src="/src/assets/images/correios logo.png"
+              src="/assets/images/correios logo.png"
               alt="Correios"
             />
           </div>
@@ -55,7 +44,7 @@ function Compras() {
           className="compras-whatsapp-link"
         >
           <img
-            src="/src/assets/images/whats.png"
+            src="/assets/images/whats.png"
             alt="WhatsApp"
             className="compras-whatsapp-icon"
           />

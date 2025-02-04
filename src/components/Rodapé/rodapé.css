@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/src/assets/images/rodapé.png);
+  background-image: url(/assets/images/rodapé.png);
   background-size: cover;
   background-position: center;
   height: 70px;

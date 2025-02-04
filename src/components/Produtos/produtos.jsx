@@ -36,42 +36,42 @@ function Produtos() {
           <div className="cards-wrapper">
             <div className="cards-produtos-passos">
               <img
-                src="src/assets/images/Produto.png"
+                src="/assets/images/Produto.png"
                 alt="produto 01"
                 className="imagem-passos"
               />
             </div>
             <div className="cards-produtos-passos">
               <img
-                src="src/assets/images/Produto.png"
+                src="/assets/images/Produto.png"
                 alt="produto 02"
                 className="imagem-passos"
               />
             </div>
             <div className="cards-produtos-passos">
               <img
-                src="src/assets/images/Produto.png"
+                src="/assets/images/Produto.png"
                 alt="produto 03"
                 className="imagem-passos"
               />
             </div>
             <div className="cards-produtos-passos">
               <img
-                src="src/assets/images/Produto.png"
+                src="/assets/images/Produto.png"
                 alt="produto 03"
                 className="imagem-passos"
               />
             </div>
             <div className="cards-produtos-passos">
               <img
-                src="src/assets/images/Produto.png"
+                src="/assets/images/Produto.png"
                 alt="produto 04"
                 className="imagem-passos"
               />
             </div>
             <div className="cards-produtos-passos">
               <img
-                src="src/assets/images/Produto.png"
+                src="/assets/images/Produto.png"
                 alt="produto 05"
                 className="imagem-passos"
               />

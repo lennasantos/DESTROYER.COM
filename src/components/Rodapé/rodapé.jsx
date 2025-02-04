@@ -5,7 +5,7 @@ function Rodape() {
     <footer className="rodape-container">
       <div className="rodape-content">
         <img
-          src="/src/assets/images/LORETECH.LS.png"
+          src="/assets/images/LORETECH.LS.png"
           alt="Rodapé Image"
           className="rodape-image"
         />

@@ -17,9 +17,9 @@ function ConhecaDestroyer() {
           <p>
             Acreditamos na importância de oferecer produtos que combinem
             eficácia com responsabilidade ambiental. Nós somos a APRIMORAR
-            VISUAL, uma distribuidora do estado de São Paulo, com uma equipe
-            dedicada a proporcionar soluções eficazes e seguras para o controle
-            de pragas.
+            VISUAL, uma distribuidora da região leste de São Paulo, com uma
+            equipe dedicada a proporcionar soluções eficazes e seguras para o
+            controle de pragas.
           </p>
         </div>
       </div>

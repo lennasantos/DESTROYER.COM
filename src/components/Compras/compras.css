@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 .compras-container {
-  background-image: url("/src/assets/images/fundo2.png");
+  background-image: url(/assets/images/fundo2.png);
   background-size: cover;
   color: white;
   text-align: center;
@@ -54,8 +54,8 @@
 }
 
 .compras-shipping-icons img {
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
   border-radius: 5px;
 }
 
