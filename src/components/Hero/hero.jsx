@@ -1,4 +1,4 @@
-import "./Hero.css";
+import "./hero.css";
 import { MENU_LINKS } from "./hero.data";
 import { Button } from "./button";
 
