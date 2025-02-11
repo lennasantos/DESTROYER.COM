@@ -18,33 +18,13 @@
 
 .compras-columns {
   display: flex;
+  font-size: 12px;
   justify-content: center;
   align-items: flex-start;
   margin-bottom: 5px;
   flex-wrap: wrap;
-  gap: 2px;
+  gap: 450px;
   padding: 0 26px;
-}
-
-.compras-column,
-.frete-column {
-  flex: 1 1 30%;
-  max-width: 30%;
-  text-align: center;
-  margin: 0;
-}
-
-.frete-column {
-  padding: 10px 20px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-}
-
-.compras-title,
-.frete-title {
-  font-size: 24px;
-  margin-bottom: 30px;
-  color: #fff;
 }
 
 .compras-icons,
@@ -69,38 +49,6 @@
   width: 150px;
   height: 150px;
   border-radius: 5px;
-}
-
-.frete-container {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.frete-container label {
-  font-size: 18px;
-  color: white;
-}
-
-.frete-container input {
-  padding: 10px;
-  border: 2px solid #ec1f24;
-  border-radius: 50px;
-  width: 50%;
-  font-size: 20px;
-  margin: 0 auto;
-  display: block;
-}
-
-.frete-result {
-  margin-top: 10px;
-  font-size: 18px;
-  color: white;
-}
-
-#frete-value {
-  font-weight: bold;
-  color: #ec1f24;
 }
 
 .compras-footer {
@@ -132,14 +80,12 @@
     gap: 15px;
   }
 
-  .compras-column,
-  .frete-column {
+  .compras-column {
     flex: 1 1 100%;
     max-width: 100%;
   }
 
-  .compras-title,
-  .frete-title {
+  .compras-title {
     font-size: 24px;
     margin-bottom: 20px;
   }
@@ -160,8 +106,7 @@
     font-size: 28px;
   }
 
-  .compras-title,
-  .frete-title {
+  .compras-title {
     font-size: 22px;
     margin-bottom: 20px;
   }

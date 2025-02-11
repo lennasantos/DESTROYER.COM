@@ -30,22 +30,6 @@ function Compras() {
             />
           </div>
         </div>
-        <div className="compras-column">
-          <h1 className="frete-title">CALCULAR FRETE</h1>
-          <div className="frete-container">
-            <label htmlFor="cep-input">Digite seu CEP:</label>
-            <input
-              type="text"
-              id="cep-input"
-              className="cep-input"
-              placeholder="Insira o CEP"
-            />
-            <div className="frete-result">
-              <label>Valor do Frete:</label>
-              <p id="frete-value">R$ 0,00</p>
-            </div>
-          </div>
-        </div>
       </div>
 
       <div className="compras-footer">
