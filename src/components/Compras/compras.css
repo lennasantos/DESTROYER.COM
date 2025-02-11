@@ -19,44 +19,88 @@
 .compras-columns {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  align-items: flex-start;
+  margin-bottom: 5px;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 2px;
+  padding: 0 26px;
 }
 
-.compras-column {
-  width: 35%;
-  margin-bottom: 30px;
+.compras-column,
+.frete-column {
+  flex: 1 1 30%;
+  max-width: 30%;
+  text-align: center;
+  margin: 0;
 }
 
-.compras-title {
+.frete-column {
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.compras-title,
+.frete-title {
   font-size: 24px;
   margin-bottom: 30px;
+  color: #fff;
 }
 
-.compras-icons {
+.compras-icons,
+.compras-shipping-icons {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 1px;
 }
 
-.compras-icons img {
+.compras-icons img,
+.compras-shipping-icons img {
   padding: 10px;
   width: 85px;
-  height: 70px;
-}
-
-.compras-shipping-icons {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
+  height: 85px;
+  object-fit: contain;
+  display: inline-block;
+  margin: 2px;
 }
 
 .compras-shipping-icons img {
   width: 150px;
   height: 150px;
   border-radius: 5px;
+}
+
+.frete-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.frete-container label {
+  font-size: 18px;
+  color: white;
+}
+
+.frete-container input {
+  padding: 10px;
+  border: 2px solid #ec1f24;
+  border-radius: 50px;
+  width: 50%;
+  font-size: 20px;
+  margin: 0 auto;
+  display: block;
+}
+
+.frete-result {
+  margin-top: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+#frete-value {
+  font-weight: bold;
+  color: #ec1f24;
 }
 
 .compras-footer {
@@ -85,16 +129,19 @@
 @media (max-width: 768px) {
   .compras-columns {
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
   }
 
-  .compras-column {
-    width: 100%;
+  .compras-column,
+  .frete-column {
+    flex: 1 1 100%;
+    max-width: 100%;
   }
 
-  .compras-title {
+  .compras-title,
+  .frete-title {
     font-size: 24px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
   .compras-icons img,
@@ -113,9 +160,10 @@
     font-size: 28px;
   }
 
-  .compras-title {
+  .compras-title,
+  .frete-title {
     font-size: 22px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .compras-icons img,

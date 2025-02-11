@@ -9,18 +9,14 @@ function Compras() {
         <div className="compras-column">
           <h2 className="compras-title">MEIOS DE PAGAMENTOS</h2>
           <div className="compras-icons">
-            <img src="/assets/images/visa logo.png" alt="Visa" />
-            <img src="/assets/images/master logo.png" alt="MasterCard" />
-            <img src="/assets/images/elo logo.png" alt="Elo" />
             <img src="/assets/images/hipercard logo.png" alt="Hipercard" />
-            <img
-              src="/assets/images/american express logo.png"
-              alt="American Express"
-            />
+            <img src="/assets/images/elo logo.png" alt="Elo" />
+            <img src="/assets/images/master logo.png" alt="MasterCard" />
+            <img src="/assets/images/visa.png" alt="Visa" />
           </div>
           <div className="compras-icons separated">
-            <img src="/assets/images/pix logo.png" alt="Pix" />
             <img src="/assets/images/boleto logo.png" alt="Boleto" />
+            <img src="/assets/images/pix.png" alt="Pix" />
           </div>
         </div>
 
@@ -32,6 +28,22 @@ function Compras() {
               src="/assets/images/correios logo.png"
               alt="Correios"
             />
+          </div>
+        </div>
+        <div className="compras-column">
+          <h1 className="frete-title">CALCULE FRETE</h1>
+          <div className="frete-container">
+            <label htmlFor="cep-input">Digite seu CEP:</label>
+            <input
+              type="text"
+              id="cep-input"
+              className="cep-input"
+              placeholder="Insira o CEP"
+            />
+            <div className="frete-result">
+              <label>Valor do Frete:</label>
+              <p id="frete-value">R$ 0,00</p>
+            </div>
           </div>
         </div>
       </div>

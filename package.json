@@ -14,6 +14,7 @@
     "@emotion/styled": "^11.14.0",
     "@mui/icons-material": "^6.1.1",
     "@mui/material": "^6.1.1",
+    "axios": "^1.7.9",
     "hoist-non-react-statics": "^3.3.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

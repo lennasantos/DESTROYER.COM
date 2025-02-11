@@ -6,6 +6,7 @@ import Duvidas from "./components/Duvidas/duvidas";
 import Canais from "./components/Canais/canais";
 import Compras from "./components/Compras/compras";
 import Rodapé from "./components/Rodapé/rodapé";
+
 <source />;
 
 function App() {

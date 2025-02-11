@@ -4,17 +4,17 @@ import "./produtos.css";
 function Produtos() {
   useEffect(() => {
     let currentIndex = 0;
-    const cards = document.querySelectorAll(".cards-produtos-passos");
-    const totalCards = cards.length;
+    const images = document.querySelectorAll(".imagem-passos");
+    const totalImages = images.length;
 
     function showSlide(index) {
-      cards.forEach((card, i) => {
-        card.style.transform = `translateX(${(i - index) * 100}%)`;
+      images.forEach((image, i) => {
+        image.style.transform = `translateX(${(i - index) * 100}%)`;
       });
     }
 
     function nextSlide() {
-      currentIndex = (currentIndex + 1) % totalCards;
+      currentIndex = (currentIndex + 1) % totalImages;
       showSlide(currentIndex);
     }
 
@@ -34,48 +34,36 @@ function Produtos() {
 
         <div id="section-container-passos">
           <div className="cards-wrapper">
-            <div className="cards-produtos-passos">
-              <img
-                src="/assets/images/Produto.png"
-                alt="produto 01"
-                className="imagem-passos"
-              />
-            </div>
-            <div className="cards-produtos-passos">
-              <img
-                src="/assets/images/Produto.png"
-                alt="produto 02"
-                className="imagem-passos"
-              />
-            </div>
-            <div className="cards-produtos-passos">
-              <img
-                src="/assets/images/Produto.png"
-                alt="produto 03"
-                className="imagem-passos"
-              />
-            </div>
-            <div className="cards-produtos-passos">
-              <img
-                src="/assets/images/Produto.png"
-                alt="produto 03"
-                className="imagem-passos"
-              />
-            </div>
-            <div className="cards-produtos-passos">
-              <img
-                src="/assets/images/Produto.png"
-                alt="produto 04"
-                className="imagem-passos"
-              />
-            </div>
-            <div className="cards-produtos-passos">
-              <img
-                src="/assets/images/Produto.png"
-                alt="produto 05"
-                className="imagem-passos"
-              />
-            </div>
+            <img
+              src="/assets/images/Produto.png"
+              alt="produto 01"
+              className="imagem-passos"
+            />
+            <img
+              src="/assets/images/Produto.png"
+              alt="produto 02"
+              className="imagem-passos"
+            />
+            <img
+              src="/assets/images/Produto.png"
+              alt="produto 03"
+              className="imagem-passos"
+            />
+            <img
+              src="/assets/images/Produto.png"
+              alt="produto 03"
+              className="imagem-passos"
+            />
+            <img
+              src="/assets/images/Produto.png"
+              alt="produto 04"
+              className="imagem-passos"
+            />
+            <img
+              src="/assets/images/Produto.png"
+              alt="produto 05"
+              className="imagem-passos"
+            />
           </div>
         </div>
       </div>
