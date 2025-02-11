@@ -51,27 +51,42 @@ body {
   color: #fff;
 }
 
+/* Estilização das imagens */
+.canais-icones img,
+.canais-horario img,
+.canais-contato .canais-item img {
+  width: 70px;
+  height: 55px;
+  object-fit: contain;
+}
+
+/* Estilo para ícones específicos */
+.canais-icone-instagram,
+.canais-icone-tiktok,
+.canais-icone-horario,
+.canais-icone-whatsapp,
+.canais-icone-email,
+.canais-icone-telefone {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  border-radius: 30%; /* Opcional, se quiser as imagens circulares */
+}
+
 .canais-icones,
 .canais-horario,
 .canais-contato .canais-item {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
-  margin-bottom: 20px;
-}
-
-.canais-icones img,
-.canais-horario img,
-.canais-contato img .canais-item img {
-  width: 60px;
-  height: 60px;
+  gap: 5px;
+  margin-bottom: 30px;
 }
 
 .horario {
-  padding: 5px;
+  padding: 15px;
   font-size: 20px;
-  margin: 25px;
+  margin: 30px;
   color: #fff;
 }
 
@@ -103,6 +118,13 @@ body {
   .canais-conteudo {
     grid-template-columns: 1fr;
   }
+
+  .canais-icones img,
+  .canais-horario img,
+  .canais-contato .canais-item img {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -121,5 +143,12 @@ body {
 
   .canais-contato p {
     font-size: 16px;
+  }
+
+  .canais-icones img,
+  .canais-horario img,
+  .canais-contato .canais-item img {
+    width: 50px;
+    height: 50px;
   }
 }

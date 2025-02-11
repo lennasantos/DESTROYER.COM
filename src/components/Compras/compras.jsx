@@ -31,7 +31,7 @@ function Compras() {
           </div>
         </div>
         <div className="compras-column">
-          <h1 className="frete-title">CALCULE FRETE</h1>
+          <h1 className="frete-title">CALCULAR FRETE</h1>
           <div className="frete-container">
             <label htmlFor="cep-input">Digite seu CEP:</label>
             <input
