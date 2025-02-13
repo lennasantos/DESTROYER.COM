@@ -10,12 +10,12 @@ export const SOURCE = [
   {
     summary: "O produto faz mal para pele?",
     detail:
-      " Não. Mais é recomendado evitar o contato com a pele, sempre lavar bem as mãos após o uso.",
+      " Não. Mas é recomendado evitar o contato com a pele, sempre lavar bem as mãos após o uso.",
   },
   {
     summary: "O produto faz mal para pets ou animais de estimação?",
     detail:
-      "Não. O produto é recomendado para o combate de pulgas, piolhos, carrapatos em cães gatos e aves.",
+      "Não. O produto é recomendado para o combate de pulgas, piolhos, carrapatos em cães, gatos e aves.",
   },
   {
     summary: "Posso borrifar o produto quantas vezes ao dia?",
@@ -25,7 +25,7 @@ export const SOURCE = [
   {
     summary: "Como armazenar o produto?",
     detail:
-      "Em um ambiente seco e arejado, matendo em um local seguro fora do alcance de crianças.",
+      "Em um ambiente seco e arejado, mantendo em um local seguro fora do alcance de crianças.",
   },
   {
     summary: "O produto mancha as roupas?",
