@@ -2,28 +2,31 @@
 
 .compras-container {
   background-image: url(/assets/images/fundo2.png);
+  border-width: 1px 0px;
+  border-style: solid;
+  color: #ec1f24;
+  border-image: linear-gradient(to right, #000, #ec1f24, #000) 1;
   background-size: cover;
-  color: white;
   text-align: center;
   padding: 20px;
   font-family: "Montserrat", sans-serif;
 }
 
 .compras-main-title {
-  padding: 40px;
-  color: #ec1f24;
+  padding: 100px;
   font-size: 36px;
   margin-bottom: 20px;
 }
 
 .compras-columns {
+  color: #ffff;
   display: flex;
   font-size: 12px;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 5px;
   flex-wrap: wrap;
-  gap: 350px;
+  gap: 500px;
   padding: 0 26px;
 }
 
@@ -79,11 +82,13 @@
     font-size: 30px;
     padding: 20px 20px;
     gap: 15px;
+    justify-content: center;
   }
 
   .compras-columns {
     flex-direction: column;
-    gap: 20px;
+    gap: 100px;
+    justify-content: center;
   }
 
   .compras-icons img,
@@ -102,8 +107,7 @@
     font-size: 26px;
   }
 
-  .compras-icons img,
-  .compras-shipping-icons img {
+  .compras-icons img {
     width: 100px;
     height: 100px;
   }
