@@ -14,12 +14,8 @@
 }
 
 body {
-  color: white;
-  background-color: black;
-}
-
-#section-produtos-titulos p {
-  color: #ec1f24;
+  color: var(--cor-tercearia-white);
+  background-color: var(--cor-secundaria-black);
 }
 
 #section-produtos {
@@ -34,78 +30,74 @@ body {
 
 #section-produtos .container-produtos {
   width: 100%;
-  max-width: 1280px;
-  margin: 100px auto;
+  max-width: 1000px;
+  margin: 80px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-#section-produtos #section-produtos-titulos {
-  width: 100%;
-  max-width: 700px;
-  text-align: center;
-  background-color: #000;
+#section-produtos-titulos p {
+  padding: 30px;
   color: var(--cor-principal-red);
-  padding: 5px;
-  margin-bottom: 100px;
+  font-size: 2em; /* Aumentado para maior destaque */
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: bold; /* Adicionado para negrito */
 }
 
 #section-produtos #section-produtos-titulos h1 {
   margin-bottom: 20px;
 }
 
-#section-produtos #section-produtos-titulos p {
-  font-size: 1.87em;
-  font-weight: 700;
-}
-
-#section-produtos #section-produtos-titulos p span {
-  color: var(--cor-principal-red);
-}
-
 #section-container-passos {
-  width: 150%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+  width: 300%;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cards-wrapper {
+  padding: 50px;
   display: flex;
-  width: 100%;
-  justify-content: center;
-  flex-wrap: nowrap;
-  animation: scroll 8s linear infinite;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-300px * 5));
-  }
+  gap: 10px; /* Aumentado o espaçamento entre imagens */
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
 }
 
 .imagem-passos {
-  width: 400px;
-  height: 400px;
-  margin: 0 1px;
+  width: 400px; /* Aumentado o tamanho da largura */
+  height: 400px; /* Aumentado o tamanho da altura */
+  object-fit: contain;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.1s ease;
 }
 
-@media (min-width: 768px) {
-  #section-container-passos {
-    flex-direction: row;
+.imagem-passos:hover {
+  transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+@media (max-width: 768px) {
+  .imagem-passos {
+    width: 500px; /* Ajustado para telas menores */
+    height: 500px;
+  }
+
+  #section-produtos-titulos p {
+    font-size: 1.7em; /* Ajustado para telas menores */
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
   .imagem-passos {
-    width: 100%;
-    height: auto;
+    width: 350px; /* Ajustado para dispositivos móveis */
+    height: 350px;
+  }
+
+  #section-produtos-titulos p {
+    font-size: 1.5em; /* Ajustado para dispositivos móveis */
   }
 }

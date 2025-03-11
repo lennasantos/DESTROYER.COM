@@ -4,21 +4,15 @@ import "./produtos.css";
 function Produtos() {
   useEffect(() => {
     let currentIndex = 0;
-    const images = document.querySelectorAll(".imagem-passos");
-    const totalImages = images.length;
-
-    function showSlide(index) {
-      images.forEach((image, i) => {
-        image.style.transform = `translateX(${(i - index) * 100}%)`;
-      });
-    }
+    const images = document.querySelector(".cards-wrapper");
+    const totalImages = document.querySelectorAll(".imagem-passos").length;
 
     function nextSlide() {
       currentIndex = (currentIndex + 1) % totalImages;
-      showSlide(currentIndex);
+      images.style.transform = `translateX(-${currentIndex * 170}px)`; // Controle da posição
     }
 
-    const interval = setInterval(nextSlide, 5000);
+    const interval = setInterval(nextSlide, 3000);
 
     return () => {
       clearInterval(interval);
@@ -51,17 +45,7 @@ function Produtos() {
             />
             <img
               src="/assets/images/Produto.png"
-              alt="produto 03"
-              className="imagem-passos"
-            />
-            <img
-              src="/assets/images/Produto.png"
               alt="produto 04"
-              className="imagem-passos"
-            />
-            <img
-              src="/assets/images/Produto.png"
-              alt="produto 05"
               className="imagem-passos"
             />
           </div>

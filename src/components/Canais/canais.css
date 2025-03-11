@@ -53,7 +53,7 @@ body {
 
 /* Estilização das imagens */
 .canais-icones img,
-.canais-horario img,
+.link img .canais-horario img,
 .canais-contato .canais-item img {
   width: 70px;
   height: 55px;
@@ -79,21 +79,28 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
+  gap: 10px;
   margin-bottom: 30px;
 }
 
 .horario {
-  padding: 15px;
+  padding: 5px;
   font-size: 20px;
-  margin: 30px;
+  margin: 15px;
+  color: #fff;
+}
+
+.link {
+  padding: 2px;
+  font-size: 20px;
+  margin: -35px;
   color: #fff;
 }
 
 .canais-contato p {
   padding: 5px;
   font-size: 20px;
-  margin: 8px;
+  margin: 15px;
   color: #fff;
 }
 
@@ -121,7 +128,7 @@ body {
 
   .canais-icones img,
   .canais-horario img,
-  .canais-contato .canais-item img {
+  .link img.canais-contato .canais-item img {
     width: 60px;
     height: 60px;
   }
@@ -147,7 +154,7 @@ body {
 
   .canais-icones img,
   .canais-horario img,
-  .canais-contato .canais-item img {
+  .link .canais-contato .canais-item img {
     width: 50px;
     height: 50px;
   }
